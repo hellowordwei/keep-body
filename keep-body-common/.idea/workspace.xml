@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefd5230-66f9-4d0e-9aed-6b3c7a966101" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" afterDir="false" />
-    </list>
+    <list default="true" id="cefd5230-66f9-4d0e-9aed-6b3c7a966101" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/keep-body-module/target/" />
@@ -43,13 +40,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="19" />
-          <entry key="xml" value="4" />
+          <entry key="txt" value="23" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="19" />
-          <entry key="XML" value="4" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -60,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="19" />
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -296,7 +295,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568541082121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568541308156" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../keep-friends" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -333,16 +332,23 @@
       <option name="presentableId" value="Default" />
       <updated>1568518702520</updated>
       <workItem from="1568518710092" duration="3457000" />
-      <workItem from="1568523012746" duration="3490000" />
+      <workItem from="1568523012746" duration="3768000" />
     </task>
+    <task id="LOCAL-00001" summary="修改Messagemapper">
+      <created>1568541147701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568541147701</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6947000" />
+    <option name="totallyTimeSpent" value="7225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -354,7 +360,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32620922" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32620922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,7 +377,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.23212379" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.23212379" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -382,6 +388,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改Messagemapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改Messagemapper" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/keep-body-module/pom.xml">
@@ -553,7 +563,7 @@
     <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="19" />
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
