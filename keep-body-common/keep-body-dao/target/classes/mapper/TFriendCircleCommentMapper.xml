@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.mapper.TFriendCircleCommentMapper">
+
+    <select id="getTFriendCircleCommentById" resultType="com.zb.pojo.TFriendCircleComment">
+        select
+                id as id,
+                fcmid as fcmid,
+                uid as uid,
+                content as content,
+                create_time as createTime,
+                like_count as likeCount
+        from t_friend_circle_comment
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="id != null">
+                and id=#{id}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getTFriendCircleCommentListByMap" resultType="com.zb.pojo.TFriendCircleComment" parameterType="java.util.Map">
+        select
+                id as id,
+                fcmid as fcmid,
+                uid as uid,
+                content as content,
+                create_time as createTime,
+                like_count as likeCount
+        from t_friend_circle_comment
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="id != null and id!=''">
+                    and id=#{id}
+                </if>
+                <if test="fcmid != null and fcmid!=''">
+                    and fcmid=#{fcmid}
+                </if>
+                <if test="uid != null and uid!=''">
+                    and uid=#{uid}
+                </if>
+                <if test="content != null and content!=''">
+                    and content=#{content}
+                </if>
+                <if test="createTime != null and createTime!=''">
+                    and create_time=#{createTime}
+                </if>
+                <if test="likeCount != null and likeCount!=''">
+                    and like_count=#{likeCount}
+                </if>
+        </trim>
+        <if test="beginPos != null and pageSize != null ">
+            limit #{beginPos},#{pageSize}
+        </if>
+    </select>
+
+    <select id="getTFriendCircleCommentCountByMap" resultType="Integer"  parameterType="java.util.Map">
+        select count(*) from t_friend_circle_comment
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="id != null and id!=''">
+                    and id=#{id}
+                </if>
+                <if test="fcmid != null and fcmid!=''">
+                    and fcmid=#{fcmid}
+                </if>
+                <if test="uid != null and uid!=''">
+                    and uid=#{uid}
+                </if>
+                <if test="content != null and content!=''">
+                    and content=#{content}
+                </if>
+                <if test="createTime != null and createTime!=''">
+                    and create_time=#{createTime}
+                </if>
+                <if test="likeCount != null and likeCount!=''">
+                    and like_count=#{likeCount}
+                </if>
+        </trim>
+    </select>
+
+    <insert id="insertTFriendCircleComment" parameterType="com.zb.pojo.TFriendCircleComment">
+        insert into t_friend_circle_comment(
+                        fcmid,
+                        uid,
+                        content,
+                        create_time,
+                        like_count)
+        values(
+                     #{fcmid},
+                     #{uid},
+                     #{content},
+                     #{createTime},
+                    #{likeCount})
+    </insert>
+
+    <update id="updateTFriendCircleComment" parameterType="com.zb.pojo.TFriendCircleComment">
+        update t_friend_circle_comment
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
+                        <if test="fcmid != null and fcmid!=''">
+                            fcmid=#{fcmid},
+                        </if>
+                        <if test="uid != null and uid!=''">
+                            uid=#{uid},
+                        </if>
+                        <if test="content != null and content!=''">
+                            content=#{content},
+                        </if>
+                        <if test="createTime != null and createTime!=''">
+                            create_time=#{createTime},
+                        </if>
+                        <if test="likeCount != null and likeCount!=''">
+                            like_count=#{likeCount}
+                        </if>
+        </trim>
+    </update>
+</mapper>

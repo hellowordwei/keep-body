@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="keep-body-client" />
+        <module name="keep-body-dao" />
+        <module name="keep-body-dto" />
+        <module name="keep-body-module" />
+        <module name="keep-body-utils" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
