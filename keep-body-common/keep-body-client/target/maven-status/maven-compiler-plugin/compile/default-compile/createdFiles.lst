@@ -1,6 +1,4 @@
-com\zb\client\RestTFriendCircleTimelineClient.class
 com\zb\fallback\TFriendCircleMessageClientFallBack.class
 com\zb\client\RestTFriendCircleMessageClient.class
 com\zb\fallback\TFriendCircleCommentClientFallBack.class
 com\zb\client\RestTFriendCircleCommentClient.class
-com\zb\fallback\TFriendCircleTimelineClientFallBack.class
