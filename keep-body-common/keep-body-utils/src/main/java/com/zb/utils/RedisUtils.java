@@ -86,17 +86,6 @@ public class RedisUtils {
         return vo.get(key);
     }
 
-    public void deleteKeys(String key) {
-        redisTemplate.setKeySerializer(new StringRedisSerializer());
-        //设置序列化Value的实例化对象
-        redisTemplate.setValueSerializer(new StringRedisSerializer());
-        Set<String> keys= redisTemplate.keys(key);
-        if (!CollectionUtils.isEmpty(keys)){
-            redisTemplate.delete(keys);
-        }
-
-    }
-
     public void delete(String key) {
         try {
             redisTemplate.delete(key);
