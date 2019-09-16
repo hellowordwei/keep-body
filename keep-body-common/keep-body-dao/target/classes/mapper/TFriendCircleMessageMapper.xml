@@ -10,7 +10,7 @@
                 uid as uid,
                 content as content,
                 picture as picture,
-                location as location,
+                is_own as isOwn,
                 create_time as createTime
         from t_friend_circle_message
         <trim prefix="where" prefixOverrides="and | or">
@@ -26,7 +26,7 @@
                 uid as uid,
                 content as content,
                 picture as picture,
-                location as location,
+                is_own as isOwn,
                 create_time as createTime
         from t_friend_circle_message
         <trim prefix="where" prefixOverrides="and | or">
@@ -42,8 +42,8 @@
                 <if test="picture != null and picture!=''">
                     and picture=#{picture}
                 </if>
-                <if test="location != null and location!=''">
-                    and location=#{location}
+                <if test="isOwn != null and isOwn!=''">
+                   and is_own=#{isOwn}
                 </if>
                 <if test="createTime != null and createTime!=''">
                     and create_time=#{createTime}
@@ -70,8 +70,8 @@
                 <if test="picture != null and picture!=''">
                     and picture=#{picture}
                 </if>
-                <if test="location != null and location!=''">
-                    and location=#{location}
+                <if test="isOwn != null and isOwn!=''">
+                and is_own=#{isOwn}
                 </if>
                 <if test="createTime != null and createTime!=''">
                     and create_time=#{createTime}
@@ -84,13 +84,13 @@
                         uid,
                         content,
                         picture,
-                        location,
+                        is_own,
                         create_time)
         values(
                      #{uid},
                      #{content},
                      #{picture},
-                     #{location},
+                     0,
                     now())
     </insert>
 
@@ -105,13 +105,18 @@
                         </if>
                         <if test="picture != null and picture!=''">
                             picture=#{picture},
-                        </if>
-                        <if test="location != null and location!=''">
-                            location=#{location},
-                        </if>
+                          </if>
+                        <if test="isOwn != null and isOwn!=''">
+                             is_own=#{isOwn},
+                         </if>
                         <if test="createTime != null and createTime!=''">
                             create_time=#{createTime}
                         </if>
         </trim>
     </update>
+    <delete id="">
+
+
+    </delete>
+
 </mapper>
