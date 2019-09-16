@@ -11,7 +11,7 @@ public class TFriendCircleMessageClientFallBack implements RestTFriendCircleMess
 
 
     @Override
-    public TFriendCircleMessage getTFriendCircleMessageById(Long id)throws Exception{
+    public TFriendCircleMessage getTFriendCircleMessageById(String id)throws Exception{
         return null;
     }
 

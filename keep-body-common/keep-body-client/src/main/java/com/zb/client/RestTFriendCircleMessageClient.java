@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @FeignClient(name = "keep-friends-provider", fallback = TFriendCircleMessageClientFallBack.class)
 public interface RestTFriendCircleMessageClient {
 @RequestMapping(value = "/getTFriendCircleMessageById",method = RequestMethod.POST)
-public TFriendCircleMessage getTFriendCircleMessageById(@RequestParam("id") Long id)throws Exception;
+public TFriendCircleMessage getTFriendCircleMessageById(@RequestParam("id") String id)throws Exception;
 
 @RequestMapping(value = "/getTFriendCircleMessageListByMap",method = RequestMethod.POST)
 public List<TFriendCircleMessage>	getTFriendCircleMessageListByMap(@RequestParam Map<String,Object> param)throws Exception;

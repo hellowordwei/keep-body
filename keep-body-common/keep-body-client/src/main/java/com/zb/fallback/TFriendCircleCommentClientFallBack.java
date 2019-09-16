@@ -11,7 +11,7 @@ public class TFriendCircleCommentClientFallBack implements RestTFriendCircleComm
 
 
     @Override
-    public TFriendCircleComment getTFriendCircleCommentById(Long id)throws Exception{
+    public TFriendCircleComment getTFriendCircleCommentById(String id)throws Exception{
         return null;
     }
 

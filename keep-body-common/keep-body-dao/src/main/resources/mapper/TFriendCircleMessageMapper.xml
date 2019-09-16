@@ -43,13 +43,12 @@
                     and picture=#{picture}
                 </if>
                 <if test="isOwn != null and isOwn!=''">
-                   and is_own=#{isOwn}
+                    and is_own=#{isOwn}
                 </if>
                 <if test="createTime != null and createTime!=''">
                     and create_time=#{createTime}
                 </if>
         </trim>
-              order by createTime desc
         <if test="beginPos != null and pageSize != null ">
             limit ${beginPos},${pageSize}
         </if>
@@ -71,7 +70,7 @@
                     and picture=#{picture}
                 </if>
                 <if test="isOwn != null and isOwn!=''">
-                and is_own=#{isOwn}
+                    and is_own=#{isOwn}
                 </if>
                 <if test="createTime != null and createTime!=''">
                     and create_time=#{createTime}
@@ -81,16 +80,18 @@
 
     <insert id="insertTFriendCircleMessage" parameterType="com.zb.pojo.TFriendCircleMessage">
         insert into t_friend_circle_message(
+                        id,
                         uid,
                         content,
                         picture,
                         is_own,
                         create_time)
         values(
+                     #{id},
                      #{uid},
                      #{content},
                      #{picture},
-                     0,
+                     0},
                     now())
     </insert>
 
@@ -105,18 +106,13 @@
                         </if>
                         <if test="picture != null and picture!=''">
                             picture=#{picture},
-                          </if>
+                        </if>
                         <if test="isOwn != null and isOwn!=''">
-                             is_own=#{isOwn},
-                         </if>
+                            is_own=#{isOwn},
+                        </if>
                         <if test="createTime != null and createTime!=''">
                             create_time=#{createTime}
                         </if>
         </trim>
     </update>
-    <delete id="">
-
-
-    </delete>
-
 </mapper>

@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @FeignClient(name = "keep-friends-provider", fallback = TFriendCircleCommentClientFallBack.class)
 public interface RestTFriendCircleCommentClient {
 @RequestMapping(value = "/getTFriendCircleCommentById",method = RequestMethod.POST)
-public TFriendCircleComment getTFriendCircleCommentById(@RequestParam("id") Long id)throws Exception;
+public TFriendCircleComment getTFriendCircleCommentById(@RequestParam("id") String id)throws Exception;
 
 @RequestMapping(value = "/getTFriendCircleCommentListByMap",method = RequestMethod.POST)
 public List<TFriendCircleComment>	getTFriendCircleCommentListByMap(@RequestParam Map<String,Object> param)throws Exception;
