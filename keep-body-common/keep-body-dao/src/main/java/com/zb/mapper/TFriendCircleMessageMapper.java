@@ -18,5 +18,5 @@ public interface TFriendCircleMessageMapper {
 
 	public Integer updateTFriendCircleMessage(TFriendCircleMessage tFriendCircleMessage)throws Exception;
 
-	public Integer deleteTFriendCircleMessage(@Param("id")Integer id)throws Exception;
+
 }

@@ -18,6 +18,6 @@ public interface TFriendCircleCommentMapper {
 
 	public Integer updateTFriendCircleComment(TFriendCircleComment tFriendCircleComment)throws Exception;
 
-	public Integer deleteTFriendCircleComment(@Param("id")Integer id)throws Exception;
+
 
 }
