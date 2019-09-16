@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface TFriendCircleMessageMapper {
 
-	public TFriendCircleMessage getTFriendCircleMessageById(@Param(value = "id") Long id)throws Exception;
+	public TFriendCircleMessage getTFriendCircleMessageById(@Param(value = "id") Integer id)throws Exception;
 
 	public List<TFriendCircleMessage>	getTFriendCircleMessageListByMap(Map<String,Object> param)throws Exception;
 
@@ -18,5 +18,5 @@ public interface TFriendCircleMessageMapper {
 
 	public Integer updateTFriendCircleMessage(TFriendCircleMessage tFriendCircleMessage)throws Exception;
 
-
+	public Integer deleteTFriendCircleMessage(@Param("id")Integer id)throws Exception;
 }

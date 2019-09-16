@@ -11,7 +11,7 @@
                 uid as uid,
                 content as content,
                 create_time as createTime,
-                like_count as likeCount
+                is_own as isOwn
         from t_friend_circle_comment
         <trim prefix="where" prefixOverrides="and | or">
             <if test="id != null">
@@ -27,7 +27,7 @@
                 uid as uid,
                 content as content,
                 create_time as createTime,
-                like_count as likeCount
+                 is_own as isOwn
         from t_friend_circle_comment
         <trim prefix="where" prefixOverrides="and | or">
                 <if test="id != null and id!=''">
@@ -45,9 +45,9 @@
                 <if test="createTime != null and createTime!=''">
                     and create_time=#{createTime}
                 </if>
-                <if test="likeCount != null and likeCount!=''">
-                    and like_count=#{likeCount}
-                </if>
+                 <if test="isOwn != null and isOwn!=''">
+                and is_own=#{isOwn}
+                 </if>
         </trim>
         <if test="beginPos != null and pageSize != null ">
             limit #{beginPos},#{pageSize}
@@ -72,8 +72,8 @@
                 <if test="createTime != null and createTime!=''">
                     and create_time=#{createTime}
                 </if>
-                <if test="likeCount != null and likeCount!=''">
-                    and like_count=#{likeCount}
+                <if test="isOwn != null and isOwn!=''">
+                    and is_own=#{isOwn}
                 </if>
         </trim>
     </select>
@@ -84,7 +84,7 @@
                         uid,
                         content,
                         create_time,
-                        like_count)
+                        is_own)
         values(
                      #{fcmid},
                      #{uid},
@@ -108,9 +108,11 @@
                         <if test="createTime != null and createTime!=''">
                             create_time=#{createTime},
                         </if>
-                        <if test="likeCount != null and likeCount!=''">
-                            like_count=#{likeCount}
-                        </if>
+                       <if test="isOwn != null and isOwn!=''">
+                            is_own=#{isOwn}
+                       </if>
         </trim>
     </update>
+
+
 </mapper>

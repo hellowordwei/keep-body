@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface TFriendCircleCommentMapper {
 
-	public TFriendCircleComment getTFriendCircleCommentById(@Param(value = "id") Long id)throws Exception;
+	public TFriendCircleComment getTFriendCircleCommentById(@Param(value = "id") Integer id)throws Exception;
 
 	public List<TFriendCircleComment>	getTFriendCircleCommentListByMap(Map<String,Object> param)throws Exception;
 
@@ -18,5 +18,6 @@ public interface TFriendCircleCommentMapper {
 
 	public Integer updateTFriendCircleComment(TFriendCircleComment tFriendCircleComment)throws Exception;
 
+	public Integer deleteTFriendCircleComment(@Param("id")Integer id)throws Exception;
 
 }

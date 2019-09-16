@@ -15,8 +15,8 @@ public class TFriendCircleComment implements Serializable {
     private String content;
     //创建日期
     private String createTime;
-    //点赞数
-    private Integer likeCount;
+    //是否删除
+    private Integer isOwn;
     //get set 方法
     public void setId (Integer  id){
         this.id=id;
@@ -51,10 +51,11 @@ public class TFriendCircleComment implements Serializable {
         this.createTime = createTime;
     }
 
-    public void setLikeCount (Integer  likeCount){
-        this.likeCount=likeCount;
+    public Integer getIsOwn() {
+        return isOwn;
     }
-    public  Integer getLikeCount(){
-        return this.likeCount;
+
+    public void setIsOwn(Integer isOwn) {
+        this.isOwn = isOwn;
     }
 }

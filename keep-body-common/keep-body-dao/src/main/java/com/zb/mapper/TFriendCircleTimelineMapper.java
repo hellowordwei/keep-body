@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface TFriendCircleTimelineMapper {
 
-	public TFriendCircleTimeline getTFriendCircleTimelineById(@Param(value = "id") Long id)throws Exception;
+	public TFriendCircleTimeline getTFriendCircleTimelineById(@Param(value = "id") Integer id)throws Exception;
 
 	public List<TFriendCircleTimeline>	getTFriendCircleTimelineListByMap(Map<String,Object> param)throws Exception;
 

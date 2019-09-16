@@ -13,10 +13,18 @@ public class TFriendCircleMessage implements Serializable {
 	private String content;
 	//图片
 	private String picture;
-	//位置
-	private String location;
+	//是否删除
+	private Integer isOwn;
 	//创建日期
 	private String createTime;
+
+	public Integer getIsOwn() {
+		return isOwn;
+	}
+
+	public void setIsOwn(Integer isOwn) {
+		this.isOwn = isOwn;
+	}
 
 	public Integer getId() {
 		return id;
@@ -50,13 +58,7 @@ public class TFriendCircleMessage implements Serializable {
 		this.picture = picture;
 	}
 
-	public String getLocation() {
-		return location;
-	}
 
-	public void setLocation(String location) {
-		this.location = location;
-	}
 
 	public String getCreateTime() {
 		return createTime;
