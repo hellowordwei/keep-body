@@ -89,8 +89,8 @@
                      #{fcmid},
                      #{uid},
                      #{content},
-                     #{createTime},
-                    #{likeCount})
+                    now(),
+                    0)
     </insert>
 
     <update id="updateTFriendCircleComment" parameterType="com.zb.pojo.TFriendCircleComment">
