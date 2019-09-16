@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefd5230-66f9-4d0e-9aed-6b3c7a966101" name="Default Changelist" comment="" />
+    <list default="true" id="cefd5230-66f9-4d0e-9aed-6b3c7a966101" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/keep-body-module/target/" />
@@ -19,47 +23,58 @@
     <session id="-875262169">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="32" />
+          <entry key="java" value="33" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="33" />
           <entry key="XML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="19" />
-          <entry key="txt" value="23" />
-          <entry key="xml" value="6" />
+          <entry key="txt" value="40" />
+          <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="19" />
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="XML" value="6" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="SQL" value="4" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="432">
+              <caret line="81" column="42" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/client/RestTFriendCircleMessageClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -115,8 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,8 +310,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568541308156" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keep-friends" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568541691658" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../euerka_server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -332,7 +347,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568518702520</updated>
       <workItem from="1568518710092" duration="3457000" />
-      <workItem from="1568523012746" duration="3768000" />
+      <workItem from="1568523012746" duration="4300000" />
+      <workItem from="1568555465720" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="修改Messagemapper">
       <created>1568541147701</created>
@@ -341,16 +357,31 @@
       <option name="project" value="LOCAL" />
       <updated>1568541147701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改Messagemapper加入order by排序">
+      <created>1568541385018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568541385018</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改Messagemapper加入order by排序">
+      <created>1568541530800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568541530800</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7225000" />
+    <option name="totallyTimeSpent" value="8429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -360,7 +391,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32620922" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32620922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,7 +422,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改Messagemapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改Messagemapper" />
+    <MESSAGE value="修改Messagemapper加入order by排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改Messagemapper加入order by排序" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/keep-body-module/pom.xml">
@@ -511,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/client/RestTFriendCircleMessageClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/java/com/zb/mapper/TFriendCircleMessageMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -562,8 +587,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="432">
+          <caret line="81" column="42" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/client/RestTFriendCircleMessageClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
