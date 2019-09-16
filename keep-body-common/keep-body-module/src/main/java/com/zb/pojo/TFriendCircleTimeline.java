@@ -14,7 +14,7 @@ public class TFriendCircleTimeline implements Serializable {
     //是否是自己的
     private Integer isOwn;
     //创建日期
-    private Date createTime;
+    private String createTime;
     //get set 方法
     public void setId (Integer  id){
         this.id=id;
@@ -40,10 +40,12 @@ public class TFriendCircleTimeline implements Serializable {
     public  Integer getIsOwn(){
         return this.isOwn;
     }
-    public void setCreateTime (Date  createTime){
-        this.createTime=createTime;
+
+    public String getCreateTime() {
+        return createTime;
     }
-    public  Date getCreateTime(){
-        return this.createTime;
+
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
     }
 }

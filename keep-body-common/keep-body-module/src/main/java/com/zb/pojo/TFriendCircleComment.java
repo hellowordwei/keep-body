@@ -11,10 +11,10 @@ public class TFriendCircleComment implements Serializable {
     private Integer fcmid;
     //用户id
     private Integer uid;
-    //
+    //内容
     private String content;
     //创建日期
-    private Date createTime;
+    private String createTime;
     //点赞数
     private Integer likeCount;
     //get set 方法
@@ -42,12 +42,15 @@ public class TFriendCircleComment implements Serializable {
     public  String getContent(){
         return this.content;
     }
-    public void setCreateTime (Date  createTime){
-        this.createTime=createTime;
+
+    public String getCreateTime() {
+        return createTime;
     }
-    public  Date getCreateTime(){
-        return this.createTime;
+
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
     }
+
     public void setLikeCount (Integer  likeCount){
         this.likeCount=likeCount;
     }
