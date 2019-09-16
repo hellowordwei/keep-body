@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cefd5230-66f9-4d0e-9aed-6b3c7a966101" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dto/target/classes/com/zb/vo/AA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dto/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dto/target/keep-body-common.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleTimeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleTimeline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/keep-body-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-utils/src/main/java/com/zb/utils/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-utils/src/main/java/com/zb/utils/RedisUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,26 +32,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="39" />
+          <entry key="java" value="40" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="40" />
           <entry key="XML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="java" value="123" />
           <entry key="txt" value="71" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="123" />
           <entry key="PLAIN_TEXT" value="71" />
           <entry key="SQL" value="4" />
           <entry key="XML" value="15" />
@@ -87,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsMessageVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="336">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
@@ -126,10 +118,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsCommentVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="360">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
-                <element signature="e#366#367#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
                 <element signature="e#428#429#0" expanded="true" />
                 <element signature="e#456#457#0" expanded="true" />
@@ -154,6 +145,15 @@
                 <element signature="e#1154#1155#0" expanded="true" />
                 <element signature="e#1196#1197#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keep-body-utils/src/main/java/com/zb/utils/RedisUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -231,13 +231,13 @@
         <option value="$PROJECT_DIR$/keep-body-utils/pom.xml" />
         <option value="$PROJECT_DIR$/keep-body-dao/pom.xml" />
         <option value="$PROJECT_DIR$/keep-body-client/pom.xml" />
-        <option value="$PROJECT_DIR$/keep-body-utils/src/main/java/com/zb/utils/RedisUtils.java" />
         <option value="$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml" />
         <option value="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleMessage.java" />
         <option value="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleTimeline.java" />
         <option value="$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsMessageVo.java" />
         <option value="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleComment.java" />
         <option value="$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsCommentVo.java" />
+        <option value="$PROJECT_DIR$/keep-body-utils/src/main/java/com/zb/utils/RedisUtils.java" />
       </list>
     </option>
   </component>
@@ -496,7 +496,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568599539552" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568602504693" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../euerka_server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -535,7 +535,7 @@
       <workItem from="1568518710092" duration="3457000" />
       <workItem from="1568523012746" duration="4300000" />
       <workItem from="1568555465720" duration="672000" />
-      <workItem from="1568595322329" duration="2286000" />
+      <workItem from="1568595322329" duration="4228000" />
     </task>
     <task id="LOCAL-00001" summary="修改Messagemapper">
       <created>1568541147701</created>
@@ -572,14 +572,22 @@
       <option name="project" value="LOCAL" />
       <updated>1568598869830</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增Vo">
+      <created>1568600077086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568600077086</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10715000" />
+    <option name="totallyTimeSpent" value="12657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -710,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-utils/src/main/java/com/zb/utils/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keep-body-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -819,43 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsCommentVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsMessageVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="336">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
@@ -883,6 +851,45 @@
             <element signature="e#1108#1109#0" expanded="true" />
             <element signature="e#1152#1153#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsCommentVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-utils/src/main/java/com/zb/utils/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -10,8 +10,10 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 
 import javax.annotation.Resource;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -82,6 +84,17 @@ public class RedisUtils {
         redisTemplate.setValueSerializer(new StringRedisSerializer());
         ValueOperations<String, Object> vo = redisTemplate.opsForValue();
         return vo.get(key);
+    }
+
+    public void deleteKeys(String key) {
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        //设置序列化Value的实例化对象
+        redisTemplate.setValueSerializer(new StringRedisSerializer());
+        Set<String> keys= redisTemplate.keys(key);
+        if (!CollectionUtils.isEmpty(keys)){
+            redisTemplate.delete(keys);
+        }
+
     }
 
     public void delete(String key) {
