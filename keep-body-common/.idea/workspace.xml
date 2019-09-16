@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cefd5230-66f9-4d0e-9aed-6b3c7a966101" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/AA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleTimeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleTimeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dto/target/classes/com/zb/vo/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dto/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dto/target/keep-body-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleTimeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleTimeline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-module/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/keep-body-common.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,14 +53,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="41" />
-          <entry key="txt" value="63" />
+          <entry key="txt" value="71" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="41" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="PLAIN_TEXT" value="71" />
           <entry key="SQL" value="4" />
           <entry key="XML" value="15" />
         </counts>
@@ -82,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsMessageVo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="48">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#320#321#0" expanded="true" />
@@ -118,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsCommentVo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -340,58 +345,6 @@
             <path>
               <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
               <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
-              <item name="keep-body-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
-              <item name="keep-body-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
-              <item name="keep-body-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
-              <item name="keep-body-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
-              <item name="keep-body-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
-              <item name="keep-body-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
-              <item name="keep-body-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
               <item name="keep-body-dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -423,6 +376,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
+              <item name="keep-body-dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
@@ -533,7 +496,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568598834090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568599539552" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../euerka_server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -572,7 +535,7 @@
       <workItem from="1568518710092" duration="3457000" />
       <workItem from="1568523012746" duration="4300000" />
       <workItem from="1568555465720" duration="672000" />
-      <workItem from="1568595322329" duration="1535000" />
+      <workItem from="1568595322329" duration="2286000" />
     </task>
     <task id="LOCAL-00001" summary="修改Messagemapper">
       <created>1568541147701</created>
@@ -602,17 +565,23 @@
       <option name="project" value="LOCAL" />
       <updated>1568595486735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增Vo">
+      <created>1568598869830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568598869830</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9964000" />
+    <option name="totallyTimeSpent" value="10715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1934" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -622,7 +591,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32620922" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32620922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,7 +608,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.16755603" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.16755603" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -655,7 +624,8 @@
     <MESSAGE value="修改Messagemapper" />
     <MESSAGE value="修改Messagemapper加入order by排序" />
     <MESSAGE value="修改insertMessage时间now" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改insertMessage时间now" />
+    <MESSAGE value="新增Vo" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增Vo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/keep-body-module/pom.xml">
@@ -849,40 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsMessageVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsCommentVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -912,6 +848,40 @@
             <element signature="e#1103#1104#0" expanded="true" />
             <element signature="e#1154#1155#0" expanded="true" />
             <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/vo/KeepFriendsMessageVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
           </folding>
         </state>
       </provider>

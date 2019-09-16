@@ -91,7 +91,7 @@
                      #{content},
                      #{picture},
                      #{location},
-                    #{createTime})
+                    now())
     </insert>
 
     <update id="updateTFriendCircleMessage" parameterType="com.zb.pojo.TFriendCircleMessage">

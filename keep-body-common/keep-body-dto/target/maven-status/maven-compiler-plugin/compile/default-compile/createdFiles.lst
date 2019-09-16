@@ -1,4 +1,5 @@
+com\zb\vo\KeepFriendsCommentVo.class
 com\zb\dto\Page.class
 com\zb\dto\Dto.class
-com\zb\vo\AA.class
+com\zb\vo\KeepFriendsMessageVo.class
 com\zb\dto\DtoUtil.class
