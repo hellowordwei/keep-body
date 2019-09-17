@@ -91,7 +91,7 @@
                      #{uid},
                      #{content},
                      #{picture},
-                     0},
+                     0,
                     now())
     </insert>
 
