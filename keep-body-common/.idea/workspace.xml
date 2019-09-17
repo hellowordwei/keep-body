@@ -3,16 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="cefd5230-66f9-4d0e-9aed-6b3c7a966101" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/client/RestTFriendCircleCommentClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/client/RestTFriendCircleMessageClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/fallback/TFriendCircleCommentClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/fallback/TFriendCircleMessageClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dao/src/main/java/com/zb/mapper/TFriendCircleCommentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dao/src/main/java/com/zb/mapper/TFriendCircleMessageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleCommentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleComment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-client/target/classes/com/zb/client/RestTFriendCircleCommentClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-client/target/classes/com/zb/client/RestTFriendCircleCommentClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-client/target/classes/com/zb/client/RestTFriendCircleMessageClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-client/target/classes/com/zb/client/RestTFriendCircleMessageClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-client/target/classes/com/zb/fallback/TFriendCircleCommentClientFallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-client/target/classes/com/zb/fallback/TFriendCircleCommentClientFallBack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-client/target/classes/com/zb/fallback/TFriendCircleMessageClientFallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-client/target/classes/com/zb/fallback/TFriendCircleMessageClientFallBack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-client/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-client/target/keep-body-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/classes/com/zb/mapper/TFriendCircleCommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/classes/com/zb/mapper/TFriendCircleCommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/classes/com/zb/mapper/TFriendCircleMessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/classes/com/zb/mapper/TFriendCircleMessageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/classes/com/zb/pojo/TFriendCircleMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-module/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-module/target/keep-body-common.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +34,7 @@
     <session id="-875262169">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.51" value="1" />
@@ -54,14 +57,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="37191" />
-          <entry key="txt" value="176" />
+          <entry key="txt" value="187" />
           <entry key="xml" value="235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="37191" />
-          <entry key="PLAIN_TEXT" value="176" />
+          <entry key="PLAIN_TEXT" value="187" />
           <entry key="SQL" value="116" />
           <entry key="XML" value="119" />
         </counts>
@@ -73,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleComment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="-48">
               <caret line="14" column="26" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
@@ -124,19 +127,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/fallback/TFriendCircleMessageClientFallBack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            <state relative-caret-position="28">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleCommentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1202">
+            <state relative-caret-position="126">
               <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
             </state>
           </provider>
@@ -145,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
+            <state relative-caret-position="-1172">
               <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
             </state>
           </provider>
@@ -154,7 +157,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="216">
               <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
@@ -383,6 +386,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="keep-body-common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keep-body-common" type="462c0819:PsiDirectoryNode" />
+              <item name="keep-body-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -392,8 +404,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568633151682" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../euerka_server" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568686245313" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keep-friends" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -432,7 +444,7 @@
       <workItem from="1568518710092" duration="3457000" />
       <workItem from="1568523012746" duration="4300000" />
       <workItem from="1568555465720" duration="672000" />
-      <workItem from="1568595322329" duration="18027000" />
+      <workItem from="1568595322329" duration="20023000" />
     </task>
     <task id="LOCAL-00001" summary="修改Messagemapper">
       <created>1568541147701</created>
@@ -532,11 +544,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568630422861</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="从新构造数据库列">
+      <created>1568633175080</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568633175080</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26456000" />
+    <option name="totallyTimeSpent" value="28452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -550,7 +569,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32845894" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32845894" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32620922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -591,7 +610,8 @@
     <MESSAGE value="修改数据库列，增加状态列is_own" />
     <MESSAGE value="删除vo不使用redis" />
     <MESSAGE value="避免复杂性，删除时间轴表" />
-    <option name="LAST_COMMIT_MESSAGE" value="避免复杂性，删除时间轴表" />
+    <MESSAGE value="从新构造数据库列" />
+    <option name="LAST_COMMIT_MESSAGE" value="从新构造数据库列" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/keep-body-module/pom.xml">
@@ -804,48 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleCommentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1202">
-          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/java/com/zb/mapper/TFriendCircleCommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="87" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/java/com/zb/mapper/TFriendCircleMessageMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/client/RestTFriendCircleCommentClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -869,8 +847,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keep-body-client/src/main/java/com/zb/fallback/TFriendCircleMessageClientFallBack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        <state relative-caret-position="28">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-module/src/main/java/com/zb/pojo/TFriendCircleComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/java/com/zb/mapper/TFriendCircleCommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="87" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/java/com/zb/mapper/TFriendCircleMessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleMessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1172">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keep-body-dao/src/main/resources/mapper/TFriendCircleCommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
         </state>
       </provider>
     </entry>
