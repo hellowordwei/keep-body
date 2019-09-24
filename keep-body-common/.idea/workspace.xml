@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cefd5230-66f9-4d0e-9aed-6b3c7a966101" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/classes/mapper/TFriendCircleMessageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dao/target/keep-body-common.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/dto/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/dto/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dto/target/classes/com/zb/dto/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dto/target/classes/com/zb/dto/Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep-body-dto/target/keep-body-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/keep-body-dto/target/keep-body-common.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,15 +53,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="37231" />
-          <entry key="txt" value="197" />
+          <entry key="java" value="37242" />
+          <entry key="txt" value="202" />
           <entry key="xml" value="243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37231" />
-          <entry key="PLAIN_TEXT" value="197" />
+          <entry key="JAVA" value="37242" />
+          <entry key="PLAIN_TEXT" value="202" />
           <entry key="SQL" value="121" />
           <entry key="XML" value="122" />
         </counts>
@@ -81,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/dto/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+            <state relative-caret-position="-672">
+              <caret line="61" column="50" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="50" />
               <folding>
                 <element signature="e#2436#2437#0" expanded="true" />
                 <element signature="e#2477#2478#0" expanded="true" />
@@ -450,7 +454,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569291954510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569292144301" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../keep-friends" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -497,7 +501,7 @@
       <workItem from="1568872876599" duration="586000" />
       <workItem from="1569035843525" duration="591000" />
       <workItem from="1569218862810" duration="2130000" />
-      <workItem from="1569285794912" duration="1721000" />
+      <workItem from="1569285794912" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="修改Messagemapper">
       <created>1568541147701</created>
@@ -632,17 +636,30 @@
       <option name="project" value="LOCAL" />
       <updated>1568691313794</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="修改Page类语句">
+      <created>1569291971484</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1569291971484</updated>
+    </task>
+    <task id="LOCAL-00021" summary="修改Page类语句">
+      <created>1569291998310</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1569291998311</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38596000" />
+    <option name="totallyTimeSpent" value="38880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2769477" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2769477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -652,7 +669,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32845894" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32620922" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32620922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -669,7 +686,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.05442903" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1638207" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -694,7 +711,8 @@
     <MESSAGE value="避免复杂性，删除时间轴表" />
     <MESSAGE value="从新构造数据库列" />
     <MESSAGE value="修改sql语句" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改sql语句" />
+    <MESSAGE value="修改Page类语句" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改Page类语句" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/keep-body-module/pom.xml">
@@ -874,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keep-body-dto/src/main/java/com/zb/dto/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+        <state relative-caret-position="-672">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="50" />
           <folding>
             <element signature="e#2436#2437#0" expanded="true" />
             <element signature="e#2477#2478#0" expanded="true" />
